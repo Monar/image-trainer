@@ -1,0 +1,50 @@
+#app,
+.app {
+  width: 100vw;
+  height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+ .appbar {
+   display: flex;
+   padding: 0 16px;
+   align-items: center;
+ }
+
+ .appbar-link {
+   color: black;
+ }
+
+ .file-path {
+   padding-left: 16px;
+ }
+
+ .timer {
+   display: flex;
+   flex: 1 0;
+   justify-content: flex-end;
+   font-size: 50px;
+   font-weight: 600;
+ }
+
+ .photo-wrapper {
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+ }
+
+ .photo {
+  object-fit: contain;
+   height: 100%;
+   max-width: 100%;
+   max-height: 100%;
+ }
+
+

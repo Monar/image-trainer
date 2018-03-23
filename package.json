@@ -1,0 +1,27 @@
+{
+  "name": "image-trainer",
+  "version": "1.0.0",
+  "description": "Simple application turning images into workout :D",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "lint": "eslint .",
+    "build": "electron-builder --win --x64"
+  },
+  "author": "Piotr Tomasz Monarski",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@cycle/dom": "20.2.0",
+    "@cycle/run": "4.1.0",
+    "xstream": "11.2.0"
+  },
+  "devDependencies": {
+    "electron": "1.8.4",
+    "electron-builder": "20.5.1",
+    "eslint": "4.19.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "prettier": "1.11.1"
+  }
+}
