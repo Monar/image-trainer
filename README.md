@@ -4,10 +4,13 @@ Simple app created to change images with exercises into training.
 
 ### How to use it 
 
-1. Create folder with images of exercises
-2. Sort files with lexical order in mind
-3. Set duration of each exercises and repetition by suffixing a fine name with numbers divided with `;`. 
-  Eg.`fine-name 10;60;60.ext` will be displayed for 10sec (with countdown and dong at the end) and then for 60sec and then for 60sec. You can set as many intervals as you want :D
-4. Build/OrNot :D and open the app.
-5. Select a folder with the training
-6. Have fun 
+1. Create folder with images
+```
+eg-exercises/
+  - 1-file 10;10.jpg
+  - 2-file 10;10.jpg
+```
+2. Build `yarn build` or not `yarn start` :D and open the app. (Remeber to `yarn` or `npm install before` ;D)
+3. Select a folder with the training
+4. Training will start, showing images from the folder in lexical order. Every image will displied for number of seconds described with a number at the end for file name. Image can be reapeted for as many times as many numbers devided with `;` there are. Reamaing duration will be shown in the top-right corrner and when the timmer will reach 0 there will be a smooth dong. 
+5. Have fun 
